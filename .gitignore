@@ -1,0 +1,20 @@
+# Data and trained models are never committed (re-created by the code)
+datasets/
+models/
+*.pkl
+*.joblib
+
+# The book itself
+*.pdf
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+.pytest_cache/
+*.egg-info/
+.DS_Store
+
+# Kaggle submission files written by the Titanic notebook
+submissions/
